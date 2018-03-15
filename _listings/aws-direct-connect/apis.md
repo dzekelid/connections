@@ -22,8 +22,8 @@ tags:
 - Networks
 - Network
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/connections/master/_listings/aws-direct-connect/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -36,7 +36,7 @@ apis:
   tags: Connections
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/connections/master/_listings/aws-direct-connect/action-describeconnectionsoninterconnect-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/connections/master/_listings/aws-direct-connect/action-allocateconnectiononinterconnect-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Direct-Connect
