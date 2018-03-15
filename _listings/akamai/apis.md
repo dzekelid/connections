@@ -20,8 +20,8 @@ tags:
 - Bots
 - Applications
 - API LIfeycle
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/connections/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -33,7 +33,7 @@ apis:
   tags: Connections
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/connections/master/_listings/akamai/connections-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/connections/master/_listings/akamai/events-v2-accountid-events-eventid-trafficdata-srip-connections-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
