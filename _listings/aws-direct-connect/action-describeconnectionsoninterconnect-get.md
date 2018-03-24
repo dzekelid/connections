@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeConnectionsOnInterconnect&k=1:
+  /?Action=DescribeConnectionsOnInterconnect:
     get:
       summary: ' Describe Connections On Interconnect '
       description: Return a list of connections that have been provisioned on the
