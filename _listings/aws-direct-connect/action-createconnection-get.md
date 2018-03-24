@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateConnection&k=1:
+  /?Action=CreateConnection:
     get:
       summary: ' Create Connection '
       description: Creates a new connection between the customer network and a specific
