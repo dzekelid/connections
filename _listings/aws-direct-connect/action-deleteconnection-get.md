@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteConnection&k=1:
+  /?Action=DeleteConnection:
     get:
       summary: ' Delete Connection '
       description: Deletes the connection
