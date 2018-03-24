@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeVpnConnections&k=1:
+  /?Action=DescribeVpnConnections:
     get:
       summary: Describe Vpn Connections
       description: Describes one or more of your VPN connections
