@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AllocateConnectionOnInterconnect&k=1:
+  /?Action=AllocateConnectionOnInterconnect:
     get:
       summary: ' Allocate Connection On Interconnect '
       description: Creates a hosted connection on an interconnect
