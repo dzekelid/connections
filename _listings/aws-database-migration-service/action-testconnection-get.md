@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=TestConnection&k=1:
+  /?Action=TestConnection:
     get:
       summary: ' Test Connection '
       description: Tests the connection between the replication instance and the endpoint
