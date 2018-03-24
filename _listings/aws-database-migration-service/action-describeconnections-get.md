@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeConnections&k=1:
+  /?Action=DescribeConnections:
     get:
       summary: ' Describe Connections '
       description: Describes the status of the connections that have been made between
