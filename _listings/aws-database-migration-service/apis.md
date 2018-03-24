@@ -20,9 +20,9 @@ tags:
 - Migration
 - Database
 - Amazon Web Services
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/connections/master/_listings/aws-database-migration-service/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-database-migration-service/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Database Migration Service API
@@ -34,7 +34,7 @@ apis:
   tags: Connections
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/connections/master/_listings/aws-database-migration-service/action-testconnection-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-database-migration-service/action-describeconnections-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/dms/latest/APIReference/Welcome.html
