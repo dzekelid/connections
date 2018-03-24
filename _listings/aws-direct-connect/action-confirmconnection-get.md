@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ConfirmConnection&k=1:
+  /?Action=ConfirmConnection:
     get:
       summary: ' Confirm Connection '
       description: Confirm the creation of a hosted connection on an interconnect
