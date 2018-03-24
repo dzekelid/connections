@@ -34,7 +34,7 @@ apis:
   tags: Connections
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-database-migration-service/action-describeconnections-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-database-migration-service/action-testconnection-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/dms/latest/APIReference/Welcome.html
