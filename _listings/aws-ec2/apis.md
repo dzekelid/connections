@@ -33,7 +33,7 @@ apis:
   tags: Connections
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-ec2/action-describevpcpeeringconnections-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-ec2/action-describevpnconnections-get.md
 x-common:
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
