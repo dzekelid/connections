@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeVpcPeeringConnections&k=1:
+  /?Action=DescribeVpcPeeringConnections:
     get:
       summary: Describe Vpc Peering Connections
       description: Describes one or more of your VPC peering connections
