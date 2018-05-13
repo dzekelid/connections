@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Direct Connect API
+  title: AWS Direct Connect API Create Connection
   version: 1.0.0
+  description: Creates a new connection between the customer network and a specific
+    AWS Direct Connect location.
 schemes:
 - http
 produces:
