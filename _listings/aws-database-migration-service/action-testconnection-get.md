@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Database Migration Service API
+  title: AWS Database Migration Service API Test Connection
   version: 1.0.0
+  description: Tests the connection between the replication instance and the endpoint.
 schemes:
 - http
 produces:
