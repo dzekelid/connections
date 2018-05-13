@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Direct Connect API
+  title: AWS Direct Connect API Describe Connection Loa
   version: 1.0.0
+  description: Returns the LOA-CFA for a Connection.
 schemes:
 - http
 produces:
