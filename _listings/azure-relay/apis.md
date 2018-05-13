@@ -30,15 +30,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-hybridconnections-hybridconnectionname-authorizationrules-authorizationrulename-regeneratekeys-post.md
-- name: Azure Relay API Hybrid Connections Create Or Update
-  description: Creates or Updates a service HybridConnection. This operation is idempotent.
+- name: Azure Relay API Hybrid Connections Delete
+  description: Deletes a HybridConnection .
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/service-relay-bus.png
   humanURL: ""
   baseURL: http:://management.azure.com//
   tags: Connections
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-hybridconnections-hybridconnectionname-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-hybridconnections-hybridconnectionname-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-hybridconnections-hybridconnectionname-delete-postman.md
 x-common:
 - type: x-blog
   url: https://blogs.msdn.microsoft.com/servicebus/
