@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Direct Connect API
+  title: AWS Direct Connect API Describe Connections
   version: 1.0.0
+  description: Displays all connections in this region.
 schemes:
 - http
 produces:
