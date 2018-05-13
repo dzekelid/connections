@@ -37,16 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-direct-connect/action-describeconnectionsoninterconnect-get.md
-- name: AWS Direct Connect API Create Connection
-  description: Creates a new connection between the customer network and a specific
-    AWS Direct Connect location.
+- name: AWS Direct Connect API Delete Connection
+  description: Deletes the connection.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AWSDirectConnect.png
   humanURL: https://aws.amazon.com/directconnect/
   baseURL: http:://{host}//
   tags: Connections
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-direct-connect/action-createconnection-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-direct-connect/action-deleteconnection-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Direct-Connect
