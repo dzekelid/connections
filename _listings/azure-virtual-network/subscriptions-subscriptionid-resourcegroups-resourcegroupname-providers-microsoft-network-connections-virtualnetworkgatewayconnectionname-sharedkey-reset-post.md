@@ -1,11 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: NetworkManagementClient
-  description: The Microsoft Azure Network management API provides a RESTful set of
-    web services that interact with Microsoft Azure Networks service to manage your
-    network resources. The API has entities that capture the relationship between
-    an end user and the Microsoft Azure Networks service.
+  title: Azure Virtual Network API Virtual Network Gateway Connections Reset Shared
+    Key
+  description: The VirtualNetworkGatewayConnectionResetSharedKey operation resets
+    the virtual network gateway connection shared key for passed virtual network gateway
+    connection in the specified resource group through Network resource provider.
   version: 1.0.0
 host: management.azure.com
 basePath: /
