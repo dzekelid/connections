@@ -35,16 +35,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-database-migration-service/action-testconnection-get.md
-- name: AWS Database Migration Service API Describe Connections
-  description: Describes the status of the connections that have been made between
-    the replication instance and an endpoint.
+- name: AWS Database Migration Service API Test Connection
+  description: Tests the connection between the replication instance and the endpoint.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-icon-dms.png
   humanURL: https://aws.amazon.com/dms/
   baseURL: http:://{host}//
   tags: Connections
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-database-migration-service/action-describeconnections-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-database-migration-service/action-testconnection-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/dms/latest/APIReference/Welcome.html
