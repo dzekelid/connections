@@ -30,7 +30,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-hybridconnections-hybridconnectionname-authorizationrules-authorizationrulename-regeneratekeys-post.md
+- name: Azure Relay API Hybrid Connections List By Namespace
+  description: Lists the HybridConnection within the namespace.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/service-relay-bus.png
+  humanURL: ""
+  baseURL: http:://management.azure.com//
+  tags: Connections
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-hybridconnections-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-hybridconnections-get-postman.md
 x-common:
+- type: x-blog
+  url: https://blogs.msdn.microsoft.com/servicebus/
+- type: x-blog-rss
+  url: https://blogs.msdn.microsoft.com/servicebus/feed/
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/service-bus-relay/
+- type: x-pricing
+  url: https://azure.microsoft.com/pricing/details/service-bus/
+- type: x-stack-overflow
+  url: http://stackoverflow.com/questions/tagged/azure-servicebusrelay
 - type: x-blog
   url: https://blogs.msdn.microsoft.com/servicebus/
 - type: x-blog-rss
