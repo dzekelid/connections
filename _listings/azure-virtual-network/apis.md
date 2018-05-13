@@ -27,16 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-connections-virtualnetworkgatewayconnectionname-sharedkey-reset-post.md
-- name: Azure Virtual Network API Virtual Network Gateway Connections Create Or Update
-  description: Creates or updates a virtual network gateway connection in the specified
-    resource group.
+- name: Azure Virtual Network API Virtual Network Gateway Connections Get
+  description: Gets the specified virtual network gateway connection by resource group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
   humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
   baseURL: http:://management.azure.com//
   tags: Connections
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-connections-virtualnetworkgatewayconnectionname-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-connections-virtualnetworkgatewayconnectionname-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/azure-virtual-network/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-connections-virtualnetworkgatewayconnectionname-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/virtual-network/
