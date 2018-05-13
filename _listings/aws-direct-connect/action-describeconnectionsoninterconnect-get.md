@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Direct Connect API
+  title: AWS Direct Connect API Describe Connections On Interconnect
   version: 1.0.0
+  description: Return a list of connections that have been provisioned on the given
+    interconnect.
 schemes:
 - http
 produces:
