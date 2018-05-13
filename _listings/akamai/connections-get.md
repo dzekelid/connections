@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Fetch Load Data
+  description: Fetch Load Data
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,16 +19,16 @@ paths:
       description: Fetch Load Data
       operationId: connections
       parameters:
-      - in: Number
+      - in: query
         name: datacenterId
         description: The ID number for the datacenter (traffic target), from the &#8220;Akamai
           code&#8221; field in the Luna Control Center
         type: string
-      - in: String
+      - in: query
         name: domain
         description: The name of the GTM domain
         type: string
-      - in: String
+      - in: query
         name: resource
         description: The name of the resource
         type: string
