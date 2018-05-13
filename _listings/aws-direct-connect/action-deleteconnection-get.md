@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Direct Connect API
+  title: AWS Direct Connect API Delete Connection
   version: 1.0.0
+  description: Deletes the connection.
 schemes:
 - http
 produces:
