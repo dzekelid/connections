@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Direct Connect API
+  title: AWS Direct Connect API Confirm Connection
   version: 1.0.0
+  description: Confirm the creation of a hosted connection on an interconnect.
 schemes:
 - http
 produces:
