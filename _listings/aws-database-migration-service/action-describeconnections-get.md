@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Database Migration Service API
+  title: AWS Database Migration Service API Describe Connections
   version: 1.0.0
+  description: Describes the status of the connections that have been made between
+    the replication instance and an endpoint.
 schemes:
 - http
 produces:
