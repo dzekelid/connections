@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Direct Connect API
+  title: AWS Direct Connect API Allocate Connection On Interconnect
   version: 1.0.0
+  description: Creates a hosted connection on an interconnect.
 schemes:
 - http
 produces:
