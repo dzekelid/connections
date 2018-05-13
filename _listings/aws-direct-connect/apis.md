@@ -37,15 +37,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-direct-connect/action-describeconnectionsoninterconnect-get.md
-- name: AWS Direct Connect API Describe Connections
-  description: Displays all connections in this region.
+- name: AWS Direct Connect API Describe Connections On Interconnect
+  description: Return a list of connections that have been provisioned on the given
+    interconnect.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AWSDirectConnect.png
   humanURL: https://aws.amazon.com/directconnect/
   baseURL: http:://{host}//
   tags: Connections
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-direct-connect/action-describeconnections-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-direct-connect/action-describeconnectionsoninterconnect-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Direct-Connect
