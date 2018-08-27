@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-squar
 x-kinRank: "9"
 x-alexaRank: "2433"
 tags: Connections
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
@@ -121,6 +121,60 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/square/v1location-idbankaccountsbank-account-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/square/v1location-idbankaccountsbank-account-id-get-openapi.md
+- name: Square Connect - Provides non-confidential details for a merchant's associated
+    bank account. This endpoint does not provide full bank account numbers, and there
+    is no way to obtain a full bank account number with the Connect API.
+  x-api-slug: v1location-idbankaccountsbank-account-id-get
+  description: Provides non-confidential details for a merchant's associated bank
+    account. This endpoint does not provide full bank account numbers, and there is
+    no way to obtain a full bank account number with the Connect API.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/square/v1location-idbankaccountsbank-account-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/square/v1location-idbankaccountsbank-account-id-get-openapi.md
+- name: Square Connect - Provides non-confidential details for all of a location's
+    associated bank accounts. This endpoint does not provide full bank account numbers,
+    and there is no way to obtain a full bank account number with the Connect API.
+  x-api-slug: v1location-idbankaccounts-get
+  description: Provides non-confidential details for all of a location's associated
+    bank accounts. This endpoint does not provide full bank account numbers, and there
+    is no way to obtain a full bank account number with the Connect API.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/square/v1location-idbankaccounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/square/v1location-idbankaccounts-get-openapi.md
+- name: Square Connect - Deletes a timecard. Deleted timecards are still accessible
+    from Connect API endpoints, but the value of their deleted field is set to true.
+    See Handling deleted timecards for more information.
+  x-api-slug: v1metimecardstimecard-id-delete
+  description: Deletes a timecard. Deleted timecards are still accessible from Connect
+    API endpoints, but the value of their deleted field is set to true. See Handling
+    deleted timecards for more information.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/square/v1metimecardstimecard-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/square/v1metimecardstimecard-id-delete-openapi.md
 x-common:
 - type: x-website
   url: http://square.com

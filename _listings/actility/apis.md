@@ -7,11 +7,44 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-acti
 x-kinRank: "7"
 x-alexaRank: "637591"
 tags: Connections
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/actility/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: ThingPark DX Core API - Connectivity plans retrieval
+  x-api-slug: connectivityplans-get
+  description: Retrieves a list of connectivity plans existing within authorized scopes.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg
+  humanURL: https://www.actility.com
+  baseURL: https://dx-api.thingpark.com//core/v141/api
+  tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/actility/connectivityplans-get-openapi.md
+- name: ThingPark DX Core API - Connectivity plans retrieval
+  x-api-slug: connectivityplans-get
+  description: Retrieves a list of connectivity plans existing within authorized scopes.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg
+  humanURL: https://www.actility.com
+  baseURL: https://dx-api.thingpark.com//core/v141/api
+  tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/actility/connectivityplans-get-openapi.md
+- name: ThingPark DX Core API - Connectivity plans retrieval
+  x-api-slug: connectivityplans-get
+  description: Retrieves a list of connectivity plans existing within authorized scopes.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg
+  humanURL: https://www.actility.com
+  baseURL: https://dx-api.thingpark.com//core/v141/api
+  tags: Technology, SaaS, Enterprise, ISP, Telecommunications, Internet of Things,
+    API Provider, Parking, Sensors, Energy, Industrial, Profiles, Relative Data, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/actility/connectivityplans-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.actility.com/blog/feed/

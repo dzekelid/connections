@@ -1,0 +1,527 @@
+{
+	"name": "Streadata.io API Gallery - Connections",
+	"description": "This is a repository of connections APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/connections.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://connections.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Twilio",
+			"x-api-slug": "twilio",
+			"description": "Cloud communications platform for building SMS, Voice & Messaging applications on an API built for global scale. Get started with a free trial.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg",
+			"humanURL": "http://www.twilio.com",
+			"baseURL": "https://api.twilio.com//2010-04-01/",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/twilio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Context.IO",
+			"x-api-slug": "context-io",
+			"description": "Create simple email webhooks and code against a free, RESTful, IMAP API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg",
+			"humanURL": "http://context.io/",
+			"baseURL": "https://api.context.io//2.0/",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/context-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stripe",
+			"x-api-slug": "stripe",
+			"description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes, including fraud prevention, and subscription management. Use Stripes payment platform to accept and process p...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg",
+			"humanURL": "https://stripe.com/",
+			"baseURL": "https://api.stripe.com/v1/",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/stripe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Square",
+			"x-api-slug": "square",
+			"description": "Square helps millions of sellers run their business- from secure credit card processing to point of sale solutions. Get paid faster with Square and sign up today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg",
+			"humanURL": "http://square.com",
+			"baseURL": "https://connect.squareup.com//",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/square/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Hewlett Packard Enterprise (HPE)",
+			"x-api-slug": "hewlett-packard-enterprise-hpe",
+			"description": "We help customers use technology to slash the time it takes to turn ideas into value. In turn, they transform industries, markets and lives. Some of our customers run traditional IT environments. Most are transitioning to a secure, cloud-enabled, mobile-friendly infrastructure. Many rely on a combination of both. Wherever they are in that journey, we provide the technology and solutions to help them succeed.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png",
+			"humanURL": "http://HPE.com",
+			"baseURL": "https://deic02-hpe.hpeonesphere.com//rest",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/hewlett-packard-enterprise-hpe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Database Migration Service",
+			"x-api-slug": "aws-database-migration-service",
+			"description": "AWS Database Migration Service helps you migrate databases to AWS easily and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. The AWS Database Migration Service can migrate your data to and from most widely used commercial and open-source databases. The service supports homogenous migrations such as Oracle to Oracle, as well as heterogeneous migrations between different database platforms, such as Oracle to Amazon Aurora or Microsoft SQL Server to MySQL. It also allows you to stream data to Amazon Redshift from any of the supported sources including Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle, SAP ASE and SQL Server, enabling consolidation and easy analysis of data in the petabyte-scale data warehouse. AWS Database Migration Service can also be used for continuous data replication with high-availability.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AWSDatabaseMigrationService.png",
+			"humanURL": "https://aws.amazon.com/dms/",
+			"baseURL": ":///",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-database-migration-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Server Migration Service",
+			"x-api-slug": "aws-server-migration-service",
+			"description": "AWS Server Migration Service (SMS) is an agentless service which makes it easier and faster for you to migrate thousands of on-premises workloads to AWS. AWS SMS allows you to automate, schedule, and track incremental replications of live server volumes, making it easier for you to coordinate large-scale server migrations.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AMI.png",
+			"humanURL": "https://aws.amazon.com/server-migration-service/",
+			"baseURL": ":///",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-server-migration-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Direct Connect",
+			"x-api-slug": "aws-direct-connect",
+			"description": "AWS Direct Connect makes it easy to establish a dedicated network connection from your premises to AWS. Using AWS Direct Connect, you can establish private connectivity between AWS and your datacenter, office, or colocation environment, which in many cases can reduce your network costs, increase bandwidth throughput, and provide a more consistent network experience than Internet-based connections.AWS Direct Connect lets you establish a dedicated network connection between your network and one of the AWS Direct Connect locations. Using industry standard 802.1q VLANs, this dedicated connection can be partitioned into multiple virtual interfaces. This allows you to use the same connection to access public resources such as objects stored in Amazon S3 using public IP address space, and private resources such as Amazon EC2 instances running within anAmazon Virtual Private Cloud (VPC)using private IP space, while maintaining network separation between the public and private environments. Virtual interfaces can be reconfigured at any time to meet your changing needs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AWSDirectConnect.png",
+			"humanURL": "https://aws.amazon.com/directconnect/",
+			"baseURL": ":///",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-direct-connect/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Identity and Access Management",
+			"x-api-slug": "aws-identity-and-access-management",
+			"description": "AWS Identity and Access Management (IAM) enables you to securely control access to AWS services and resources for your users. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources.IAM is a feature of your AWS account offered at no additional charge. You will be charged only for use of other AWS services by your users.To get started using IAM, orif you have already registered with AWS, go to theAWS Management Consoleand get started with theseIAM Best Practices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png",
+			"humanURL": "https://aws.amazon.com/iam/",
+			"baseURL": ":///",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-identity-and-access-management/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Security Token Service",
+			"x-api-slug": "aws-security-token-service",
+			"description": "The AWS Security Token Service (STS) is a web service that enables you to request temporary, limited-privilege credentials for AWS Identity and Access Management (IAM) users or for users that you authenticate (federated users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM_AWSSTS.png",
+			"humanURL": "http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html",
+			"baseURL": ":///",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-security-token-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Directory Service",
+			"x-api-slug": "aws-directory-service",
+			"description": "AWS Directory Service for Microsoft Active Directory (Enterprise Edition), also known as AWS Microsoft AD, enables your directory-aware workloads and AWS resources to use managed Active Directory in the AWS Cloud. The Microsoft AD service is built on actual Microsoft Active Directory and does not require you to synchronize or replicate data from your existing Active Directory to the cloud. You can use standard Active Directory administration tools and take advantage of built-in Active Directory features such as Group Policy, trusts, and single sign-on. With Microsoft AD, you can easily joinAmazon EC2andAmazon RDS for SQL Serverinstances to a domain, and useAWS Enterprise IT applicationssuch asAmazon WorkSpaceswith Active Directory users and groups.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png",
+			"humanURL": "https://aws.amazon.com/directoryservice/",
+			"baseURL": ":///",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-directory-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Cognito",
+			"x-api-slug": "aws-cognito",
+			"description": "Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and web apps. With Amazon Cognito, you also have the options to authenticate users through social identity providers such as Facebook, Twitter, or Amazon, with SAML identity solutions, or by using your own identity system. In addition, Amazon Cognito enables you to save data locally on users devices, allowing your applications to work even when the devices are offline. You can then synchronize data across users devices so that their app experience remains consistent regardless of the device they use. With Amazon Cognito, you can focus on creating great app experiences instead of worrying about building, securing, and scaling a solution to handle user management, authentication, and sync across devices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png",
+			"humanURL": "https://aws.amazon.com/cognito/",
+			"baseURL": "https:///",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-cognito/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS WorkSpaces",
+			"x-api-slug": "aws-workspaces",
+			"description": "Amazon WorkSpaces is a fully managed, secure desktop computing service which runs on the AWS cloud. Amazon WorkSpaces allows you to easily provision cloud-based virtual desktops and provide your users access to the documents, applications, and resources they need from any supported device, including Windows and Mac computers, Chromebooks, iPads, Fire tablets, Android tablets, and Chrome and Firefox web browsers. With just a few clicks in the AWS Management Console, you can deploy high-quality cloud desktops for any number of users. With Amazon WorkSpaces, you pay either monthly or hourly just for the Amazon WorkSpaces you launch, which helps you save money when compared to traditional desktops and on-premises Virtual Desktop Infrastructure (VDI) solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkSpaces.png",
+			"humanURL": "https://aws.amazon.com/workspaces/",
+			"baseURL": ":///",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-workspaces/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2",
+			"x-api-slug": "aws-ec2",
+			"description": "Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon&rsquo;s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/",
+			"baseURL": ":///",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-ec2/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Doubleclick",
+			"x-api-slug": "google-doubleclick",
+			"description": "The Ad Exchange Buyer REST API allows your Real-Time Bidding application to access and update account information and to submit creatives. The API also allows an application (whether it does static bidding or real-time bidding) to discover direct deals that sellers make available.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png",
+			"humanURL": "https://www.doubleclickbygoogle.com/",
+			"baseURL": "https:///",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/google-doubleclick/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google People",
+			"x-api-slug": "google-people",
+			"description": "The People API lets you list authenticated users Contacts and retrieve profile information for authenticated users and their contacts. For example, lets say the authenticated user, Jen, has Fabian and Ranjith in her private contacts. When your app calls people.connections.list to retrieve a list of her connections, Jen is presented with a consent screen asking to give the app access to the list. If Jen consents, the app retrieves a list containing Fabian and Ranjith (with a resource name for each person). The app can then call people.get, passing in a resource name, to get private contact and public profile data for each person.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-people.png",
+			"humanURL": "https://developers.google.com/people/",
+			"baseURL": "://people.googleapis.com//",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/google-people/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Spectrum Database",
+			"x-api-slug": "google-spectrum-database",
+			"description": "The Google Spectrum Database API provides PAWS-compatible JSON-RPC methods that allow devices to query the database to find available TV-band spectrum at a given geolocation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-spectrum-database-earth.jpg",
+			"humanURL": "https://www.google.com/get/spectrumdatabase/",
+			"baseURL": "://www.googleapis.com//spectrum/v1explorer/paws",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/google-spectrum-database/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Automation",
+			"x-api-slug": "azure-automation",
+			"description": "Automate all of those frequent, time-consuming, and error-prone cloud management tasks. Azure Automation helps you focus on work that adds business value. By reducing errors and boosting efficiency, it also helps to lower your operational costs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/automation/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/azure-automation/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure DocumentDB",
+			"x-api-slug": "azure-documentdb",
+			"description": "Azure DocumentDB is a fully-managed NoSQL document database service that offers querying and transaction-processing over schema-free data, predictable and reliable performance, and rapid development.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-document-db-03-replicate.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/documentdb/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/azure-documentdb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mattermost",
+			"x-api-slug": "mattermost",
+			"description": "Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure, configurable, and scalable from teams to the enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png",
+			"humanURL": "https://mattermost.com",
+			"baseURL": "https:///",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/mattermost/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Actility",
+			"x-api-slug": "actility",
+			"description": "Actility is the leader in low power wide area (LoRaWAN and 3GPP) network connectivity management for the Internet of Things: the ThingPark platform",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg",
+			"humanURL": "https://www.actility.com",
+			"baseURL": "https://dx-api.thingpark.com//maker/v011/api",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/actility/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Quovo",
+			"x-api-slug": "quovo",
+			"description": "Quovo&rsquo;s API provides methods for retrieving data from financial institutions on behalf of clients, advisors, and other users. This documentation includes detailed explanations of API endpoints and common data definitions. Please note that this documentation does not list all API endpoints. Additionally, you may not have access to all of the listed endpoints depending on the services you&rsquo;ve purchased from Quovo.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg",
+			"humanURL": "http://quovo.com",
+			"baseURL": "https://example.com//",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/quovo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "TradeStation",
+			"x-api-slug": "tradestation",
+			"description": "Whether you trade stocks, ETFs, options or futures, TradeStation???s award-winning tools and brokerage services can give you the confidence to achieve your goals.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tradestation_logo_285x40.png",
+			"humanURL": "http://www.tradestation.com",
+			"baseURL": "https://api.tradestation.com//v2",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/tradestation/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Blockchain Workbench",
+			"x-api-slug": "azure-blockchain-workbench",
+			"description": "Azure Blockchain Workbench helps organizations build rich, integrated multi-party blockchain applications quickly and easily. Azure Blockchain Workbench REST API provides developers and information workers a way to integrate to blockchain applications. For example, a developer can use the REST API to enable IoT devices to send data to a blockchain application. Or, an information worker can use the REST API and Power BI to create visualization of blockchain data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png",
+			"humanURL": "https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/",
+			"baseURL": "https:////",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/azure-blockchain-workbench/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Connections",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Connections",
+	"include": [
+		{
+			"name": "Twilio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/twilio/apis.yaml"
+		},
+		{
+			"name": "Context.IO",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/context-io/apis.yaml"
+		},
+		{
+			"name": "Stripe",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/stripe/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "Square",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/square/apis.yaml"
+		},
+		{
+			"name": "Hewlett Packard Enterprise (HPE)",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/hewlett-packard-enterprise-hpe/apis.yaml"
+		},
+		{
+			"name": "AWS Database Migration Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-database-migration-service/apis.yaml"
+		},
+		{
+			"name": "AWS Server Migration Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-server-migration-service/apis.yaml"
+		},
+		{
+			"name": "AWS Direct Connect",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-direct-connect/apis.yaml"
+		},
+		{
+			"name": "AWS Identity and Access Management",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-identity-and-access-management/apis.yaml"
+		},
+		{
+			"name": "AWS Security Token Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-security-token-service/apis.yaml"
+		},
+		{
+			"name": "AWS Directory Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-directory-service/apis.yaml"
+		},
+		{
+			"name": "AWS Cognito",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-cognito/apis.yaml"
+		},
+		{
+			"name": "AWS WorkSpaces",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-workspaces/apis.yaml"
+		},
+		{
+			"name": "AWS EC2",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/aws-ec2/apis.yaml"
+		},
+		{
+			"name": "Google Doubleclick",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/google-doubleclick/apis.yaml"
+		},
+		{
+			"name": "Google People",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/google-people/apis.yaml"
+		},
+		{
+			"name": "Google Spectrum Database",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/google-spectrum-database/apis.yaml"
+		},
+		{
+			"name": "Azure Automation",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/azure-automation/apis.yaml"
+		},
+		{
+			"name": "Azure DocumentDB",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/azure-documentdb/apis.yaml"
+		},
+		{
+			"name": "Mattermost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/mattermost/apis.yaml"
+		},
+		{
+			"name": "Actility",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/actility/apis.yaml"
+		},
+		{
+			"name": "Quovo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/quovo/apis.yaml"
+		},
+		{
+			"name": "TradeStation",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/tradestation/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Azure Blockchain Workbench",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/azure-blockchain-workbench/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}

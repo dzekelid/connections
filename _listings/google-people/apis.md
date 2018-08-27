@@ -13,11 +13,26 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Connections
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/google-people/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Google People - Get Connections
+  x-api-slug: v1resourcenameconnections-get
+  description: |-
+    Provides a list of the authenticated user's contacts merged with any
+    linked profiles.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-people.png
+  humanURL: https://developers.google.com/people/
+  baseURL: ://people.googleapis.com//
+  tags: Users, People, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/google-people/v1resourcenameconnections-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/connections/master/_listings/google-people/v1resourcenameconnections-get-openapi.md
 - name: Google People - Get Connections
   x-api-slug: v1resourcenameconnections-get
   description: |-

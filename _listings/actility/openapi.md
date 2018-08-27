@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Actility
 x-complete: 1
@@ -14,4 +13,18 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /connectivityPlans:
+    get:
+      summary: Connectivity plans retrieval
+      description: Retrieves a list of connectivity plans existing within authorized
+        scopes.
+      operationId: retrieves-a-list-of-connectivity-plans-existing-within-authorized-scopes
+      x-api-path-slug: connectivityplans-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Connectivity
+      - Plans
+      - Retrieval
